@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "E:/auto_formation/Dev_JAVA/mcp-multi-spring-python"
+      ],
+      "env": {}
+    }
+  }
+}
