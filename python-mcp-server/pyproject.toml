@@ -6,7 +6,9 @@ authors = [
     { name = "yahines", email = "yahiaoui.nesrine@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "mcp[cli]>=2.3.0",
+]
 
 [project.scripts]
 python-mcp-server = "python_mcp_server:main"
