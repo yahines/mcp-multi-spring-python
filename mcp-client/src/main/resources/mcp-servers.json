@@ -10,6 +10,18 @@
         "E:/auto_formation/Dev_JAVA/mcp-multi-spring-python"
       ],
       "env": {}
+    },
+    "Python_MCP_Server": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--project",
+        "E:/auto_formation/Dev_JAVA/mcp-multi-spring-python/python-mcp-server",
+        "mcp",
+        "run",
+        "E:/auto_formation/Dev_JAVA/mcp-multi-spring-python/python-mcp-server/server.py"
+      ],
+      "env": {}
     }
   }
 }
